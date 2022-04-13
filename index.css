@@ -1,0 +1,53 @@
+*{margin: 0;   
+    padding: 0;   
+    box-sizing: border-box;   
+    outline: none;   
+    border: none;   
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(4, 114, 114);
+}
+body{
+    width: 100%;
+    height: 100vz;
+    background-color: rgb(1, 55, 55);
+    
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    height: 100vz;
+}
+.dory{
+    
+    
+}
+.imgmarlin{
+    width: 65%;
+    height: 65%;
+    border: solid 5px;
+}
+.imgdory{
+    width: 80%;
+    height: 65%;
+    border: solid;
+}
+
+.imgcrush{
+    width: 70%;
+    height: 65%;
+    border: solid 5px;
+}
+.marlin {
+    
+    
+}
+.crush{
+    
+    
+}

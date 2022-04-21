@@ -6,14 +6,36 @@
     text-decoration: none;
 }
 header{
+    
     width: 100%;
     height: 70px;
-    background-color: rgb(4, 114, 114);
+    /*background-color: rgb(4, 114, 114);*/
 }
 body{
     width: 100%;
     height: 100vz;
     background-color: rgb(1, 55, 55);
+    background-image: url(./imagens/fundo\ 3.jpg)
+    
+}
+.botaomarlin{
+    background-color: rgba(47, 79, 79, 0.437);
+    width: 250px;
+    height: 150px;
+}
+.botaodory{
+    background-color: rgba(47, 79, 79, 0.437);
+    width: 250px;
+    height: 150px;
+}
+.botaocrush{
+    background-color: rgba(47, 79, 79, 0.437);
+    width: 250px;
+    height: 150px;
+}
+.texto{
+    width: 250px;
+    background-color: rgba(100, 148, 237, 0.511);
     
 }
 .conteiner{
@@ -22,32 +44,56 @@ body{
     gap: 10px;
     width: 100%;
     height: 100vz;
-}
-.dory{
     
+}
+.questao{
+    width: 50%;
+    border: solid 5px;
+    background-color: rgba(100, 148, 237, 0.511);
+    
+}
+.lista{
     
 }
 .imgmarlin{
-    width: 65%;
-    height: 65%;
+    width: 100%;
+    height: 100%;
     border: solid 5px;
 }
 .imgdory{
-    width: 80%;
-    height: 65%;
-    border: solid;
+    width: 100%;
+    height: 100%;
+    border: solid 5px;
 }
 
 .imgcrush{
-    width: 70%;
-    height: 65%;
+    width: 100%;
+    height: 100%;
     border: solid 5px;
 }
-.marlin {
-    
-    
+.centro{
+    padding:120px 250px 250px 250px;
 }
-.crush{
-    
-    
+.gameover{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    width: 300px;
+    height: 190px;
+    border: solid 5px;
+    text-align: center;
+    background-image: url(./imagens/gameover.jpg);
 }
+.paragrafo{
+    font-size: 50px;
+    align-self: flex-start;
+}
+.botao{
+ 
+}
+/*.marlin {}*/
+/*.crush{}*/
+/*.dory{}*/

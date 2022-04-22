@@ -101,3 +101,115 @@ body{
     font-size: 50px;
     align-self: flex-start;
 }
+
+@media(max-width:450px ){
+    header{
+        width: 100%;
+        height: 100vz;
+        font-size: small;
+    }
+    body{
+        width: 100%;
+        
+        background-image: url(./imagens/fundo\ 3.jpg)            
+    }
+    .conteiner{
+        padding: 70px 50px 50px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        height: 100vz;
+        
+    }
+    .botaomarlin{
+        background-color: rgba(47, 79, 79, 0.437);
+        width: 150px;
+        height: 100px;
+    }
+    .botaodory{
+        background-color: rgba(47, 79, 79, 0.437);
+        width: 150px;
+        height: 100px;
+    }
+    .botaocrush{
+        background-color: rgba(47, 79, 79, 0.437);
+        width: 150px;
+        height: 100px;
+    }
+    .imgmarlin{
+        width: 100%;
+        height: 100%;
+        border: solid 5px;
+    }
+    .imgdory{
+        width: 100%;
+        height: 100%;
+        border: solid 5px;
+    }
+    
+    .imgcrush{
+        width: 100%;
+        height: 100%;
+        border: solid 5px;
+    }
+    .final{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-self: center;
+        justify-content: center;
+        width: 300px;
+        height: 180px;
+        border: solid 5px;
+        text-align: center;
+        background-image: url(./imagens/capa.jpg);
+    }
+          
+    .centro{
+        padding:120px 250px 250px 250px;
+    }
+    .gameover{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-self: center;
+        justify-content: center;
+        width: 300px;
+        height: 190px;
+        border: solid 5px;
+        text-align: center;
+        background-image: url(./imagens/gameover.jpg);
+    }
+    .final{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-self: center;
+        justify-content: center;
+        width: 300px;
+        height: 180px;
+        border: solid 5px;
+        text-align: center;
+        background-image: url(./imagens/capa.jpg);
+    }
+    .paragrafo{
+        font-size: 40px;
+        align-self: flex-start;
+    }
+    .texto{
+        width: 200px;
+        background-color: rgba(100, 148, 237, 0.511);
+        
+    }
+    .questao{
+        width: 100%;
+        border: solid 5px;
+        background-color: rgba(100, 148, 237, 0.511);
+        
+    }
+}

@@ -9,53 +9,59 @@ header{
     
     width: 100%;
     height: 70px;
-    /*background-color: rgb(4, 114, 114);*/
+    
 }
 body{
     width: 100%;
-    height: 100vz;
-    background-color: rgb(1, 55, 55);
-    background-image: url(./imagens/fundo\ 3.jpg)
-    
+    height: 100vh;
+    background-image: url(./imagens/fundo\ 3.jpg);
 }
 
 .botaomarlin{
     background-color: rgba(47, 79, 79, 0.437);
-    width: 250px;
+    width: 200px;
     height: 150px;
 }
 .botaodory{
     background-color: rgba(47, 79, 79, 0.437);
-    width: 250px;
+    width: 200px;
     height: 150px;
 }
 .botaocrush{
     background-color: rgba(47, 79, 79, 0.437);
-    width: 250px;
+    width: 200px;
     height: 150px;
 }
 .texto{
-    width: 250px;
+    width: 200px;
     background-color: rgba(100, 148, 237, 0.511);
     
 }
 .conteiner{
     display: flex;
     flex-direction: column;
-    
     width: 100%;
-    height: 100vz;
-    
+    height: 100vh;
+   
+}
+.conteinerfases{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+   
 }
 .textoinicial{
+    
     align-self: center ;
 }
 .centralizar{
-
+   
+   
     display: flex;
     width: 100%;
     flex-direction: row;
-    padding: 150px 150px 150px 100px;
+    flex-wrap: wrap;
     font-size: 20px;
     gap: 10px;
 }
